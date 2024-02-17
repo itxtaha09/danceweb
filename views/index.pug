@@ -1,0 +1,63 @@
+doctype html 
+html 
+    head 
+        title Pooja Dance Academy 
+        style 
+            include ../static/style.css 
+    body 
+        nav#navbar
+            ul 
+                div#logo
+                    img(src="/static/img/dancee.png")
+                    | PDA 
+                li #[a(href="/") Home] 
+                li #[a(href="/") About]
+                li #[a(href="/") Services] 
+                li #[a(href="/") Class Info]
+                li #[a(href="/") Contact Us]
+
+    section#introsection 
+        div Welcome to Pooja's Dance Academy 
+        div.small Rhythm of Joy, Steps of Grace
+
+    section#missionsection
+        h2 Our Mission
+        div.card 
+            h3  Female Dance
+            div.card-box
+                div.card-img 
+                    img(src="/static/img/dancee1.png")
+
+                div.card-content
+                    p Unlock your potential with precision and grace at our premier female dance academy.
+        div.card 
+            h3 Couple Dance 
+            div.card-box
+                div.card-img 
+                    img(src="/static/img/dancee2.png")
+                    
+                div.card-content
+                    p Unleash the magic of dance as a duo at our couple's academy.
+        div.card 
+            h3 Male Dance 
+            div.card-box
+                div.card-img 
+                    img(src="/static/img/dancee3.png")
+
+                div.card-content
+                    p Stride into confidence and master the art of movement at our exclusive male dance academy.
+
+    section#sponsorsection
+        h2 Our Sponsors
+        div#sponsors 
+            //- img(src=" /static/img/meta.png", alt="Sponsor Image", class="spimsge")
+            img(src=" /static/img/whatsapp.png", alt="Sponsor Image", class="spimage")
+            img(src=" /static/img/x.png", alt="Sponsor Image", class="spimage")
+            img(src=" /static/img/microsoft.png", alt="Sponsor Image", class="spimage")
+            
+
+    footer#footer
+        | Copyright &#9400; 2003 PoojaDanceAcademy.com | All rights Reserved
+
+        script 
+            include ../static/index.js 
