@@ -9,10 +9,14 @@
 h1{
     text-align: center;
     margin: 12px 0;
+    color: white;
 }
 .container{
+    background: center/cover no-repeat url("../static/bgcontact.jpg");
+    height: 435px;
     min-height: 75vh;
-    margin-top: 23px;
+    margin-top: -12px;
+    background-color: black;
 }
 
 .container h1{
